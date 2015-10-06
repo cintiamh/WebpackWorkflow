@@ -2,16 +2,16 @@
   "name": "webpackworkflow",
   "version": "0.0.1",
   "description": "Tutorial from http://christianalfoni.github.io/javascript/2014/12/13/did-you-know-webpack-and-react-is-awesome.html",
-  "main": "index.js",
+  "main": "app/main.js",
   "dependencies": {
-    
+
   },
   "devDependencies": {
     "webpack": "^1.12.2",
     "webpack-dev-server": "^1.12.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack-dev-server --devtool eval --progress --colors --content-base build"
   },
   "repository": {
     "type": "git",
