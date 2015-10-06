@@ -4,9 +4,10 @@
   "description": "Tutorial from http://christianalfoni.github.io/javascript/2014/12/13/did-you-know-webpack-and-react-is-awesome.html",
   "main": "app/main.js",
   "dependencies": {
-
+    "react": "^0.13.3"
   },
   "devDependencies": {
+    "jsx-loader": "^0.13.2",
     "webpack": "^1.12.2",
     "webpack-dev-server": "^1.12.0"
   },

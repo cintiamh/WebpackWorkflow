@@ -15,3 +15,11 @@ $ npm install webpack-dev-server
 ```
 
 You will be using webpack to deploy your code and webpack-dev-server to run your workflow.
+
+### Loaders
+
+jsx-loader
+
+```
+$ npm install jsx-loader --save
+```
