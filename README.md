@@ -23,3 +23,5 @@ jsx-loader
 ```
 $ npm install jsx-loader --save
 ```
+
+https://github.com/petehunt/webpack-howto
